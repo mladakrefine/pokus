@@ -13,19 +13,20 @@ library(dplyr)
 
 #první range
 from1 <- as.Date("2016-07-01")
-to1 <- as.Date("2016-09-30")
+to1 <- as.Date("2016-12-31")
+
 
 #druhý range
-from2 <- as.Date("2016-10-01")
-to2 <- as.Date("2016-12-31")
+from2 <- as.Date("2017-01-01")
+to2 <- as.Date("2017-06-30")
 
 #třetí range
-from3 <- as.Date("2017-01-01")
-to3 <- as.Date("2017-03-31")
+from3 <- as.Date("2666-06-06")
+to3 <- as.Date("2666-06-06")
 
 #čtvrtý range
-from4 <- as.Date("2017-04-01")
-to4 <- as.Date("2017-06-30")
+from4 <- as.Date("2666-06-06")
+to4 <- as.Date("2666-06-06")
 
 ##-2-##
 postsFiles <- list.files(pattern = "_posts.csv")
